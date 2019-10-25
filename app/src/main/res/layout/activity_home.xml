@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backhome"
+    tools:context=".HomeActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/header" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:layout_marginTop="10dp">
+
+            <RelativeLayout
+                android:id="@+id/image1"
+                android:layout_width="140dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="40dp">
+
+                <ImageButton
+                    android:layout_width="120dp"
+                    android:layout_height="110dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:elevation="4dp"
+                    android:scaleType="centerInside"
+                    app:srcCompat="@drawable/ganjil" />
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginTop="130dp"
+                    android:gravity="center"
+                    android:text="Ganjil/Genap"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/image2"
+                android:layout_width="140dp"
+                android:layout_height="160dp"
+                android:layout_marginLeft="50dp">
+
+                <ImageButton
+                    android:layout_width="120dp"
+                    android:layout_height="110dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="200dp"
+                    android:layout_marginTop="10dp"
+                    android:elevation="4dp"
+                    android:scaleType="centerInside"
+                    app:srcCompat="@drawable/banding2" />
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginTop="130dp"
+                    android:gravity="center"
+                    android:text="Perbandingan "
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp">
+
+            <RelativeLayout
+                android:id="@+id/image3"
+                android:layout_width="140dp"
+                android:layout_height="160dp"
+                android:layout_marginLeft="40dp">
+
+                <ImageButton
+                    android:layout_width="120dp"
+                    android:layout_height="110dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:elevation="4dp"
+                    android:scaleType="centerInside"
+                    app:srcCompat="@drawable/pictkerucut" />
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginTop="130dp"
+                    android:gravity="center"
+                    android:text="Vol. Kerucut"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/image4"
+                android:layout_width="140dp"
+                android:layout_height="160dp"
+                android:layout_marginLeft="50dp">
+
+                <ImageButton
+                    android:layout_width="120dp"
+                    android:layout_height="110dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="200dp"
+                    android:layout_marginTop="10dp"
+                    android:elevation="4dp"
+                    android:scaleType="centerInside"
+                    app:srcCompat="@drawable/kpk" />
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginTop="130dp"
+                    android:gravity="center"
+                    android:text="KPK dan FPB"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>
